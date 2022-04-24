@@ -5,7 +5,7 @@
         "city": "San Diego, CA",
         "start": 2021,
         "end": 2022,
-        "description": "Led the electrical & computer engineering team in designing the system hardware and software. Coded embedded system software for triggering via motion sensor, recording raw audio signals from mic, image data from camera, nmea gpgga data from gps, and seismic data from inertial mass unit. This raw data was encoded and transfered via FTP in one file which was captured by my python fog computing layer that processes data in .wav audio, .png images with ID stored in MySQL Database. The processed data is accessible in my flask web-application.",
+        "description": "Led the electrical & computer engineering team in designing the system hardware and software. Coded embedded system software for triggering via motion sensor, recording raw audio signals from the mic, image data from the camera, NMEA GPGGA data from GPS, and seismic data from the inertial mass unit. This raw data was encoded and transferred via FTP in one file which was captured by my python fog computing layer that processes data in .wav audio, .png images with the ID stored in MySQL Database. The processed data is accessible in my flask web application.",
         "tools": [
             "C/C++",
             "Python",
@@ -24,7 +24,7 @@
         "city": "San Diego, CA",
         "start": 2022,
         "end": 2022,
-        "description": "Implemented a kernel driver to kill debian virtual machine operating system and another to fork infinite processes preventing users access to resources.",
+        "description": "Implemented a kernel driver to kill the Debian virtual machine operating system and another to fork infinite processes preventing users' access to resources.",
         "tools": [
             "C/C++",
             "Python",
@@ -43,7 +43,7 @@
         "city": "San Diego, CA",
         "start": 2022,
         "end": 2022,
-        "description": "Awarded 'Best Overall'. Organized team in engineering an autonomous adaptive solar ecosystem. Created flask web-application for viewing system power gain and expenditure. Tested circuit design using oscilloscopes, multimeters, and software debugger.",
+        "description": "Awarded 'Best Overall'. Organized team in engineering an autonomous adaptive solar ecosystem. Created flask web application for viewing system power gain and expenditure. Tested circuit design using oscilloscopes, multimeters, and software debugger.",
         "tools": [
             "C/C++",
             "Python",
@@ -61,7 +61,7 @@
         "city": "San Diego, CA",
         "start": 2019,
         "end": 2020,
-        "description": "Organized workshops educating SDSU students in software engineering using bootstrap, git, github, web development. Hosted SDSU's first IEEE Hackathon.",
+        "description": "Organized workshops educating SDSU students in software engineering using bootstrap, git, Github, and web development. Hosted SDSU's first IEEE Hackathon.",
         "tools": [
             "C/C++",
             "HTML",
@@ -97,7 +97,7 @@
         "city": "Camarillo, CA",
         "start": 2016,
         "end": 2020,
-        "description": "Led team of 30 interns in manufacturing products & providing services for local businesses. Organized company involvement in community opportunities such as 'The Camarillo Christmas Parade'. Introduced the Academy Bridge Program for Rancho Campana High School in engineering and medical science.",
+        "description": "Led a team of 30 interns in manufacturing products & providing services for local businesses. Organized company involvement in community opportunities such as 'The Camarillo Christmas Parade'. Introduced the Academy Bridge Program for Rancho Campana High School in engineering and medical science.",
         "tools": [
             "Leadership",
             "Event Planning",
@@ -118,7 +118,7 @@
         "city": "Iloilo, Philippines",
         "start": 2019,
         "end": 2019,
-        "description": "Organized 12 universities and 5 US & Philippines based sponsors in hosting a hackathon for 160+ university students. Coordinated with Dumangas National High School and Dumangas City Counselor in bussing 40+ high school honors students & teachers to the event. Ran workshop in modern web development.",
+        "description": "Organized 12 universities and 5 US & Philippines-based sponsors in hosting a hackathon for 160+ university students. Coordinated with Dumangas National High School and Dumangas City Counselor in bussing 40+ high school honors students & teachers to the event. Ran workshop in modern web development.",
         "tools": [
             "Event Planning",
             "Web Development"
@@ -132,7 +132,7 @@
         "city": "Camarillo, CA",
         "start": 2019,
         "end": 2019,
-        "description": "Taught a high school credited ROP Software Development in course in JavaScript, Bootstrap, and Web Development.",
+        "description": "Taught a high school credited ROP Software Development courses in JavaScript, Bootstrap, and Web Development.",
         "tools": [
             "HTML",
             "CSS",
@@ -149,7 +149,7 @@
         "city": "Camarillo, CA",
         "start": 2018,
         "end": 2019,
-        "description": "Hosted programs and events for on-campus residence.",
+        "description": "Hosted programs and events for on-campus residents.",
         "tools": [
             "Leadership",
             "Event Planning",
