@@ -10,5 +10,11 @@
         "title": "NewCo Champions",
         "logo": "https://www.newco.foundation/img/newco-foundation.png",
         "link": "https://www.newco.foundation/champions/"
+    },
+    "HACK_ILOILO": {
+        "publisher": "Hack Iloilo",
+        "title": "A Scucessful Launch to A Long Endeavor, Hack Iloilo 2019",
+        "logo": "https://hackiloilo.com/img/favicon.png",
+        "link": "https://hackiloilo.com/blog/hack-iloilo-2019/"
     }
 }
