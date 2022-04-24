@@ -1,0 +1,257 @@
+{{ define "main" }} Main {{ range $.Site.Data.projects }} {{ if or (in .category
+"HDL") }} {{ .name }} "{{ index .tools 0 }}" {{ end }}
+<!-- {{.name}} -->
+{{ end }} {{ range $.Site.Data.bio }}
+<div class="py-5 mt-5" id="intro">
+  <div class="container py-5">
+    <div class="">
+      <div class="h5 text-aquamarine">Hi, my name is</div>
+      <div class="display-1 fw-bold text-gainsboro">{{ .name }}</div>
+      <div class="display-2 fw-bold text-silver">{{ .subtitle }}</div>
+      <div class="h5 fw-light pt-4 pb-4 w-50 text-silver">{{ .intro }}</div>
+      <a
+        href="{{ .resume }}"
+        target="_blank"
+        class="btn btn-lg btn-outline-aquamarine"
+        >Check out my resume!</a
+      >
+    </div>
+  </div>
+</div>
+<div class="container py-5" id="aboutme">
+  <div class="row py-5">
+    <div class="col-lg-8 col-md-8 col-12 px-5">
+      <div class="h6 text-silver">
+        Hello! I enjoy build IoT devices because it allows me to combine my
+        knowledge in hardware & software through writing embedded systems
+        software (especially networking), cloud databases, and web application
+        development. These projects are also most interesting since it truly
+        enables the users to fully interact with the device.
+      </div>
+      <div class="h6 text-silver py-3">Here are a few technologies I work with:</div>
+      <div class="">
+        {{ range $.Site.Data.bio }} {{ range .technologies }}
+        <small class="btn btn-outline-aquamarine text-uppercase mb-3"
+          >{{ . }}</small
+        >&emsp;{{ end }} {{ end }}
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12">
+      <img src="img/profile/dwightdiesmo.png" alt="" class="w-100" />
+    </div>
+  </div>
+</div>
+<div class="py-5"></div>
+<div class="py-5" id="terminal">
+  <div class="container py-5">
+    <div class="terminal">
+      <div class="text-start px-4 py-3">
+        <i class="fa-solid fa-circle text-danger"></i>
+        <i class="fa-solid fa-circle text-warning"></i>
+        <i class="fa-solid fa-circle text-success"></i>
+      </div>
+      <div class="terminal-console text-gainsboro p-4">
+        {{ range $.Site.Data.education }}
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">education</b>
+          </div>
+          <div class="h6 fw-light">&emsp;=> "{{ .school }}"</div>
+        </div>
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">major</b>
+          </div>
+          <div class="h6 fw-light">&emsp;=> "{{ .major }}"</div>
+        </div>
+        {{ end }}
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">workExperience.latest</b>
+          </div>
+          <div class="h6 fw-light">&emsp;=> Latest Work Experience</div>
+          <div class="h6 fw-light">
+            &emsp;&emsp;company: "National Security Innovation Network"
+          </div>
+          <div class="h6 fw-light">&emsp;&emsp;role: "IoT Engineer"</div>
+          <div class="h6 fw-light">
+            &emsp;&emsp;date: "August 2021 - May 2022"
+          </div>
+          <div class="h6 fw-light">
+            &emsp;&emsp;skills: ["C/C++ Embeddded Software", "Python Fog
+            Computing Layer", "SQL Database", "Flask Web-Application"]
+          </div>
+        </div>
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">resume</b>
+          </div>
+          <div class="h6 fw-light">
+            &emsp;=> "<a
+              href="{{ .resume }}"
+              class="text-aquamarine-hover text-decoration-none"
+              >dwightdiesmo.pdf</a
+            >"
+          </div>
+        </div>
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">contacts</b>
+          </div>
+          <div class="h6 fw-light">
+            &emsp;=> ["<a
+              href="{{ .email }}"
+              target="_blank"
+              class="text-aquamarine-hover text-decoration-none"
+              >{{ .email }}</a
+            >", "<a
+              href="{{ .linkedin }}"
+              target="_blank"
+              class="text-aquamarine-hover text-decoration-none"
+              >linkedin.com/dwightdiesmo</a
+            >", "<a
+              href="{{ .github }}"
+              target="_blank"
+              class="text-aquamarine-hover text-decoration-none"
+              >github.com/dwightdiesmo</a
+            >"]
+          </div>
+        </div>
+        <div class="row py-1">
+          <div class="h6 fw-normal">
+            > dwightdiesmo.<b class="text-aquamarine">interests</b>
+          </div>
+          <div class="h6 fw-light">
+            &emsp;=> ["{{ index .interests 0 }}", "{{ index .interests 1 }}",
+            "{{ index .interests 2 }}", "{{ index .interests 3 }}", "{{ index
+            .interests 4 }}", "{{ index .interests 5 }}", "{{ index .interests 6
+            }}"]
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" id="publications"></div>
+<div class="container text-gainsboro" id="resume">
+  <div class="text-center py-5">
+    <small class="text-center fw-bold">RÉSUMÉ</small>
+  </div>
+  <div class="" id="education">
+    <small class="fw-bold">EDUCATION</small>
+    <hr />
+    {{ range $.Site.Data.education }}
+    <div class="row">
+      <div class="col-lg-1 col-2 pb-4">
+        <img src="{{ .logo }}" alt="" class="grayscale-hover w-100" />
+      </div>
+      <div class="col-lg-10 col-12">
+        <div class="row">
+          <div class="col-6 text-start">
+            <div class="h6 fw-bold pb-1">{{ .school }}</div>
+            <div class="h6 fw-bold">{{ .major }}</div>
+          </div>
+          <div class="col-6 text-end">
+            <div class="h6 fw-light fst-italic">{{ .city }}</div>
+            <div class="h6 fw-light fst-italic">{{ .start }} - {{ .end }}</div>
+          </div>
+        </div>
+        <div class="h6 fw-light py-3">Relevant Coursework:</div>
+        <ol>
+          <ul>
+            {{ range .relevantCourses }}
+            <li class="h6 fw-light">&ensp;{{ . }}</li>
+            {{ end }}
+          </ul>
+        </ol>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="" id="experience">
+    <small class="fw-bold">EXPERIENCE</small>
+    <hr />
+    {{ range sort $.Site.Data.experience ".end" "desc"}}
+    <div class="row py-4">
+      <div class="col-lg-1 col-2">
+        <a href="{{ .link }}" target="_blank" class="text-decoration-none">
+          <img src="{{ .logo }}" alt="" class="grayscale-hover w-100" />
+        </a>
+      </div>
+      <div class="col-lg-10 col-12">
+        <div class="row py-4">
+          <div class="col-6 text-start">
+            <div class="h6 fw-bold">{{ .company }}</div>
+            <div class="h6 fw-bold">{{ .position }}</div>
+          </div>
+          <div class="col-6 text-end">
+            {{ if or (eq .start .end) }}
+            <div class="h6 fw-light fst-italic">{{ .end }}</div>
+            {{ else }}
+            <div class="h6 fw-light fst-italic">{{ .start }} - {{ .end }}</div>
+            {{ end }}
+            <div class="h6 fw-light fst-italic">{{ .city }}</div>
+          </div>
+        </div>
+        <div class="h6 pb-4 fw-light">{{ .description }}</div>
+        {{ range .tools }}
+        <small class="btn btn-outline-aquamarine text-uppercase mb-3"
+          >{{ . }}</small
+        >&emsp;{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+<div class="container" id="projects">
+  <h2 class="fw-bold text-center text-gainsboro py-5">Projects</h2>
+  <div class="row">
+    {{ range $.Site.Data.projects }}
+    <div class="col-lg-4 col-md-6 col-12 py-3">
+      <div class="bg-raisin hover-box-shadow square-card py-5 px-4">
+        <a
+          href="{{ .github }}"
+          target="_blank"
+          class="text-gainsboro-hover text-decoration-none"
+        >
+          <div class="row">
+            <div class="col-6 text-start">
+              <i class="fa-regular fa-folder fa-3x text-aquamarine"></i>
+            </div>
+            <div class="col-6 text-end">
+              <i class="fa-brands fa-github fa-1x text-silver-hover"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="h4 fw-bold pt-3">{{ .name }}</div>
+            <div class="h5 fw-normal text-silver py-2">
+              {{ .description | truncate 80}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="h6 text-aquamarine">
+              {{ range .category }}{{ .}} &ensp;{{ end }}
+            </div>
+            <small class="text-silver"
+              >{{ range .tools }}[{{ .}}] &ensp;{{ end }}</small
+            >
+          </div>
+        </a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+<div class="py-5" id="contact">
+  <div class="container text-center py-5">
+    <div class="display-2 fw-bold text-gainsboro">Get In Touch</div>
+    <div class="h6 text-silver pt-3 pb-5">
+      My inbox is always open. Whether you have a question or just want to say
+      hi, I’ll try my best to get back to you!
+    </div>
+    <a href="dwightdiesmo@gmail.com" class="btn btn-lg btn-outline-aquamarine"
+      >Say Hello!</a
+    >
+  </div>
+</div>
+{{ end }} {{ end }}
