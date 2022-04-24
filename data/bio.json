@@ -7,13 +7,13 @@
             "Embedded Systems",
             "VLSI System Design",
             "SQL Databases",
-            "Web Application",
+            "Web Applications",
             "Movies",
             "Wings"
         ],
         "technologies": ["HTML/CSS/JavaScript", "Python/Flask", "SystemVerilog/Basys3", "Matlab", "C/C++", "Arduino/Raspberry Pi", "SQL/MySQL", "Git/GitHub"],
         "email": "dwightdiesmo@gmail.com",
-        "resume": "/static/doc/dwightdiesmo-min.pdf",
+        "resume": "/doc/dwightdiesmo-min.pdf",
         "github": "https://github.com/DwightDiesmo",
         "linkedin": "https://www.linkedin.com/in/dwightdiesmo"
     }

@@ -1,0 +1,32 @@
+{
+    "about-me": {
+        "priority": "1",
+        "name": "About Me",
+        "link": "#aboutme"
+    },
+    "featured": {
+        "priority": "2",
+        "name": "Featured",
+        "link": "#publications"
+    },
+    "education": {
+        "priority": "3",
+        "name": "Education",
+        "link": "#education"
+    },
+    "experience": {
+        "priority": "4",
+        "name": "Experience",
+        "link": "#experience"
+    },
+    "projects": {
+        "priority": "5",
+        "name": "Projects",
+        "link": "#projects"
+    },
+    "contact": {
+        "priority": "6",
+        "name": "Contact",
+        "link": "#contact"
+    }
+}
