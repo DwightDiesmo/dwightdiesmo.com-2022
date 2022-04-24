@@ -23,7 +23,7 @@
             "FPGA"
         ],
         "description": "FPGA & SystemVerilog implementation of UART.",
-        "github": ""
+        "github": "https://github.com/DwightDiesmo/Basys_3_UART"
     },
     "SINGLE_PROCESSOR": {
         "name": "Single-Cycle MIPS Microprocessor",
