@@ -141,7 +141,7 @@
             "Embedded Software"
         ],
         "description": "Deployable Surveillance M-203 Grenade Launcher Round with seismic sensing, camera, microphone, gps, sd card, wifi capabilities. Data is sent via file transfer protocol to a fog computing layer that processes data and transmits to the MySQL server in cloud. Data can be viewed an accessed by the user in a Flask Web-Application.",
-        "github": ""
+        "github": "https://github.com/DwightDiesmo/ARGUS"
     },
     "AASE": {
         "name": "Autonomous Adaptive Solar Ecosystem",
