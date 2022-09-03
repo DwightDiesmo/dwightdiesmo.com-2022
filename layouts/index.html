@@ -1,100 +1,44 @@
-{{ define "main" }} Main {{ range $.Site.Data.projects }} {{ if or (in .category
-"HDL") }} {{ .name }} "{{ index .tools 0 }}" {{ end }}
+{{ define "main" }}
+<!--  -->
+{{ range $.Site.Data.projects }}
+<!--  -->
+{{ if or (in .category "HDL") }} {{ .name }} "{{ index .tools 0 }}" {{ end }}
 <!-- {{.name}} -->
-{{ end }} {{ range $.Site.Data.bio }}
-<div class="" id="intro">
-  <div class="py-5 my-5"></div>
-  <div class="container">
-    <div class="">
-      <div class="h5 text-aquamarine">Hi, my name is</div>
-      <div class="display-1 fw-bold text-gainsboro">{{ .name }}</div>
-      <div class="display-2 fw-bold text-silver">{{ .subtitle }}</div>
-      <div class="h5 fw-light pt-4 pb-4 w-50 text-silver">{{ .intro }}</div>
-      <a
-        href="{{ .resume }}"
-        target="_blank"
-        class="btn btn-lg btn-outline-aquamarine"
-        >Check out my resume!</a
-      >
-    </div>
+{{ end }} 
+<!--  -->
+{{ range $.Site.Data.bio }}
+<section id="header" class="text-center text-white">
+  <div class="parallax-page-header">
+    <h1>Hello</h1>
   </div>
-  <div class="py-5 my-4"></div>
-</div>
-<div class="container" id="aboutme">
-  <div class="py-5 my-4"></div>
-  <div class="row">
-    <div class="col-lg-8 col-md-8 col-12" data-aos="fade-up-right">
-      <div class="h6 text-silver">
-        Hello! I enjoy build IoT devices because it allows me to combine my
-        knowledge in hardware & software through writing embedded systems
-        software (especially networking), cloud databases, and web application
-        development. These projects are also most interesting since it truly
-        enables the users to fully interact with the device.
-      </div>
-      <div class="h6 text-silver py-3">
-        Here are a few technologies I work with:
-      </div>
-      <div class="">
-        {{ range $.Site.Data.bio }} {{ range .technologies }}
-        <small class="btn btn-outline-aquamarine text-uppercase mb-3"
-          >{{ . }}</small
-        >&emsp;{{ end }} {{ end }}
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up-left">
-      <img src="img/profile/dwightdiesmo.png" alt="" class="w-100" />
-    </div>
-  </div>
-  <div class="py-5 my-4"></div>
-</div>
-<div class="container" id="publications" data-aos="fade-up">
-  <div class="py-5 my-4"></div>
-  <div class="text-start pb-4">
-    <small class="fw-bold text-gainsboro-hover">FEATURED IN</small>
-  </div>
-  <div class="row">
-    {{ range $.Site.Data.press }}
-    <div class="col-6 pb-3 align-middle">
-      <a
-        href="{{ .link }}"
-        target="_blank"
-        class="btn btn-lg btn-outline-aquamarine text-decoration-none w-100"
-      >
-        <!-- <img src="{{ .logo }}" alt="" class="grayscale-hover rounded w-100" /> -->
-        {{ .publisher }}
-      </a>
-    </div>
-    {{ end }}
-  </div>
-  <!-- <div class="py-5 my-4"></div> -->
-</div>
-<div class="" id="terminal">
-  <div class="py-5 my-4"></div>
-  <div class="container" data-aos="fade-up">
+</section>
+<section id="terminal" class="bg-instagram">
+  <div class="py-lg-5"></div>
+  <div class="container py-lg-5" data-aos="fade-up">
     <div class="terminal">
       <div class="text-start px-4 py-3">
         <i class="fa-solid fa-circle text-danger"></i>
         <i class="fa-solid fa-circle text-warning"></i>
         <i class="fa-solid fa-circle text-success"></i>
       </div>
-      <div class="terminal-console text-gainsboro p-4">
+      <div class="terminal-console text-white p-4">
         {{ range $.Site.Data.education }}
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">education</b>
+            > dwightdiesmo.<b class="text-instagram">education</b>
           </div>
           <div class="h6 fw-light">&emsp;=> "{{ .school }}"</div>
         </div>
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">major</b>
+            > dwightdiesmo.<b class="text-instagram">major</b>
           </div>
           <div class="h6 fw-light">&emsp;=> "{{ .major }}"</div>
         </div>
         {{ end }}
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">workExperience.latest</b>
+            > dwightdiesmo.<b class="text-instagram">workExperience.latest</b>
           </div>
           <div class="h6 fw-light">&emsp;=> Latest Work Experience</div>
           <div class="h6 fw-light">
@@ -111,43 +55,40 @@
         </div>
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">resume</b>
+            > dwightdiesmo.<b class="text-instagram">resume</b>
           </div>
           <div class="h6 fw-light">
             &emsp;=> "<a
               href="{{ .resume }}"
               target="_blank"
-              class="text-aquamarine-hover text-decoration-none"
+              class="text-instagram text-decoration-none fw-bold"
               >dwightdiesmo.pdf</a
             >"
           </div>
         </div>
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">contacts</b>
+            > dwightdiesmo.<b class="text-instagram">contacts</b>
           </div>
-          <div class="h6 fw-light">
+          <div class="h6 fw-light text-decoration-none fw-bold">
             &emsp;=> ["<a
               href="mailto:{{ .email }}"
               target="_blank"
-              class="text-aquamarine-hover text-decoration-none"
+              class="text-instagram"
               >{{ .email }}</a
             >", "<a
               href="{{ .linkedin }}"
               target="_blank"
-              class="text-aquamarine-hover text-decoration-none"
+              class="text-instagram"
               >linkedin.com/dwightdiesmo</a
-            >", "<a
-              href="{{ .github }}"
-              target="_blank"
-              class="text-aquamarine-hover text-decoration-none"
+            >", "<a href="{{ .github }}" target="_blank" class="text-instagram"
               >github.com/dwightdiesmo</a
             >"]
           </div>
         </div>
         <div class="row py-1">
           <div class="h6 fw-normal">
-            > dwightdiesmo.<b class="text-aquamarine">interests</b>
+            > dwightdiesmo.<b class="text-instagram">interests</b>
           </div>
           <div class="h6 fw-light">
             &emsp;=> {{ range .interests }}[{{.}}] {{ end }}
@@ -156,26 +97,26 @@
       </div>
     </div>
   </div>
-  <div class="py-5 my-4"></div>
-</div>
-<div class="container text-gainsboro" id="resume">
-  <div class="py-5 my-4"></div>
+  <div class="py-lg-5 my-lg-4"></div>
+</section>
+<section id="resume" class="container text-white">
+  <div class="py-lg-5 my-lg-4"></div>
   <div class="text-center">
-    <small class="text-center fw-bold text-gainsboro-hover">RÉSUMÉ</small>
+    <small class="text-center fw-bold text-instagram">CURRICULUM VITAE</small>
   </div>
-  <div class="" id="education">
-    <div class="py-5 my-4"></div>
-    <small class="fw-bold text-gainsboro-hover">EDUCATION</small>
+  <div id="education" class="">
+    <div class="py-lg-5 my-lg-4"></div>
+    <small class="fw-bold text-instagram">EDUCATION</small>
     <hr />
     {{ range $.Site.Data.education }}
     <div class="row">
       <div class="col-lg-1 col-2 pb-4" data-aos="fade-up-right">
-        <img src="{{ .logo }}" alt="" class="grayscale-hover w-100" />
+        <img src="{{ .logo }}" alt="" class="img-gray-to-color w-100" />
       </div>
       <div class="col-lg-11 col-12" data-aos="fade-up-left">
         <div class="row">
           <div class="col-6 text-start">
-            <div class="h6 fw-bold pb-1 text-gainsboro-hover">{{ .school }}</div>
+            <text class="h6 fw-bold pb-1 text-instagram"> {{ .school }} </text>
             <div class="h6 fw-bold">{{ .major }}</div>
           </div>
           <div class="col-6 text-end">
@@ -195,21 +136,21 @@
     </div>
     {{ end }}
   </div>
-  <div class="" id="experience">
-    <div class="py-5 my-4"></div>
-    <small class="fw-bold text-gainsboro-hover">EXPERIENCE</small>
+  <div id="experience" class="">
+    <div class="py-lg-5 my-lg-4"></div>
+    <small class="fw-bold text-instagram">EXPERIENCE</small>
     <hr />
     {{ range sort $.Site.Data.experience ".end" "desc"}}
     <div class="row py-4">
       <div class="col-lg-1 col-2" data-aos="fade-up-right">
         <a href="{{ .link }}" target="_blank" class="text-decoration-none">
-          <img src="{{ .logo }}" alt="" class="grayscale-hover w-100" />
+          <img src="{{ .logo }}" alt="" class="img-gray-to-color w-100" />
         </a>
       </div>
       <div class="col-lg-11 col-12" data-aos="fade-up-left">
         <div class="row py-4">
           <div class="col-6 text-start">
-            <div class="h6 fw-bold text-gainsboro-hover">{{ .company }}</div>
+            <text class="h6 fw-bold text-instagram">{{ .company }}</text>
             <div class="h6 fw-bold">{{ .position }}</div>
           </div>
           <div class="col-6 text-end">
@@ -223,17 +164,16 @@
         </div>
         <div class="h6 pb-4 fw-light">{{ .description }}</div>
         {{ range .tools }}
-        <small class="btn btn-outline-aquamarine text-uppercase mb-3"
-          >{{ . }}</small
-        >&emsp;{{ end }}
+        <small class="text-uppercase mb-3">[&nbsp;{{ . }}&nbsp;]</small>&emsp;{{
+        end }}
       </div>
     </div>
     {{ end }}
   </div>
-</div>
-<div class="container" id="projects">
-  <div class="py-5 my-4"></div>
-  <h2 class="fw-bold text-center text-gainsboro py-5">ENGINEERING PROJECTS</h2>
+</section>
+<!-- <div class="container" id="projects">
+  <div class="py-lg-5 my-lg-4"></div>
+  <h2 class="fw-bold text-center text-instagram py-5">ENGINEERING PROJECTS</h2>
   <div class="row">
     {{ range $.Site.Data.projects }}
     <div class="col-lg-4 col-md-6 col-12 py-3" data-aos="fade-up">
@@ -241,14 +181,14 @@
         <a
           href="{{ .github }}"
           target="_blank"
-          class="text-gainsboro-hover text-decoration-none"
+          class="text-instagram text-decoration-none"
         >
           <div class="row">
             <div class="col-6 text-start">
               <i class="fa-regular fa-folder fa-3x text-aquamarine"></i>
             </div>
             <div class="col-6 text-end">
-              <i class="fa-brands fa-github fa-1x text-silver-hover"></i>
+              <i class="fa-brands fa-github fa-1x text-silver"></i>
             </div>
           </div>
           <div class="row">
@@ -270,21 +210,10 @@
     </div>
     {{ end }}
   </div>
-</div>
-<div class="" id="contact">
-  <div class="py-5 my-4"></div>
-  <div class="container text-center py-5">
-    <div class="display-2 fw-bold text-gainsboro">Get In Touch</div>
-    <div class="h6 text-silver pt-3 pb-5">
-      My inbox is always open. Whether you have a question or just want to say
-      hi, I’ll try my best to get back to you!
-    </div>
-    <a
-      href="mailto:dwightdiesmo@gmail.com"
-      class="btn btn-lg btn-outline-aquamarine"
-      >Say Hello!</a
-    >
-  </div>
-  <div class="py-5 my-4"></div>
-</div>
-{{ end }} {{ end }}
+</div> -->
+
+{{ end }}
+<!--  -->
+{{ partial "contact/contact.html" . }}
+<!--  -->
+{{ end }}

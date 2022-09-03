@@ -1,8 +1,8 @@
 {
-    "about-me": {
+    "linkOne": {
         "priority": "1",
-        "name": "About Me",
-        "link": "#aboutme"
+        "name": "Engineering",
+        "link": "/engineering"
     },
     "featured": {
         "priority": "2",
