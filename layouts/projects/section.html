@@ -4,7 +4,7 @@
     <h2 class="fw-bold text-center text-gainsboro py-5">ENGINEERING PROJECTS</h2>
     <div class="row">
       {{ range $.Site.Data.projects }}
-      {{ if or (eq .category[0] "MITx") }}
+      {{ if (eq .category[0] "MITx") }}
       <div class="col-lg-4 col-md-6 col-12 py-3" data-aos="fade-up">
         <div class="bg-raisin hover-box-shadow square-card py-5 px-4">
           <a
