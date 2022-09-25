@@ -22,7 +22,7 @@
     "projects": {
         "priority": "5",
         "name": "Projects",
-        "link": "#projects"
+        "link": "projects"
     },
     "contact": {
         "priority": "6",
