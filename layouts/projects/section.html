@@ -1,4 +1,44 @@
 {{ define "main" }} 
-<h1>Projects</h1>
+<div class="container" id="projects">
+    <div class="py-5 my-4"></div>
+    <h2 class="fw-bold text-center text-gainsboro py-5">ENGINEERING PROJECTS</h2>
+    <div class="row">
+      {{ range $.Site.Data.projects }}
+      <div class="col-lg-4 col-md-6 col-12 py-3" data-aos="fade-up">
+        <div class="bg-raisin hover-box-shadow square-card py-5 px-4">
+          <a
+            href="{{ .github }}"
+            target="_blank"
+            class="text-gainsboro-hover text-decoration-none"
+          >
+            <div class="row">
+              <div class="col-6 text-start">
+                <i class="fa-regular fa-folder fa-3x text-aquamarine"></i>
+              </div>
+              <div class="col-6 text-end">
+                <i class="fa-brands fa-github fa-1x text-silver-hover"></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="h4 fw-bold pt-3">{{ .name }}</div>
+              <div class="h5 fw-normal text-silver py-2">
+                {{ .description | truncate 80}}
+              </div>
+            </div>
+            <div class="row">
+              <div class="h6 text-aquamarine">
+                {{ range .category }}{{ .}} &ensp;{{ end }}
+              </div>
+              <small class="text-silver"
+                >{{ range .tools }}[{{ .}}] &ensp;{{ end }}</small
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  
 
 {{ end }}
