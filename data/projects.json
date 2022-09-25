@@ -2,7 +2,7 @@
     "EyeMovement": {
         "name": "Eye Movement",
         "category": [
-            "Web Applications"
+            "MITx"
         ],
         "tools": [
             "HTML",
@@ -15,7 +15,7 @@
     "PacMen": {
         "name": "PacMen",
         "category": [
-            "Web Applications"
+            "MITx"
         ],
         "tools": [
             "HTML",
@@ -28,7 +28,7 @@
     "RealTimeBusTracker": {
         "name": "RealTimeBusTracker",
         "category": [
-            "Web Applications"
+            "MITx"
         ],
         "tools": [
             "HTML",
