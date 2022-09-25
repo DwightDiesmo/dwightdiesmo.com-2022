@@ -1,4 +1,43 @@
 {
+    "EyeMovement": {
+        "name": "Eye Movement",
+        "category": [
+            "Web Applications"
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This has a set of eyes that follows your mouse.",
+        "github": "https://github.com/DwightDiesmo/EyeMovement"
+    },
+    "PacMen": {
+        "name": "PacMen",
+        "category": [
+            "Web Applications"
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This uses generates moving pacmen.",
+        "github": "https://github.com/DwightDiesmo/PacMen"
+    },
+    "RealTimeBusTracker": {
+        "name": "RealTimeBusTracker",
+        "category": [
+            "Web Applications"
+        ],
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This uses the mapbox API to showcase the different trolley stops in the San Diego Trolley Green Line.",
+        "github": "https://github.com/DwightDiesmo/RealTimeBusTracker"
+    },
     "ADPCM": {
         "name": "ADPCM",
         "category": [
