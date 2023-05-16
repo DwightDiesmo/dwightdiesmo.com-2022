@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.font-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    overflow-x: hidden;
+}
+
+.terminal {
+    background-color: #ebebeb;
+    border-radius: 25px;
+}
+
+.terminal-console {
+    background-color: #383737;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.bg-oxford-blue {
+    background-color: #0A192F;
+}
+.bg-raisin {
+    background-color: #202737;
+}
+
+.bg-gunmetal {
+    background-color: #282F3F;
+}
+
+.bg-gainsboro {
+    background-color: #DCDCDD;
+}
+
+.bg-silver {
+    background-color: #C5C3C6;
+}
+
+.bg-razzmatazz {
+    background-color: #E83970;
+}
+.bg-aquamarine {
+    background-color: #64FFDA;
+}
+
+.text-oxford-blue {
+    color: #0A192F;
+}
+.text-raisin {
+    color: #202737;
+}
+
+.text-gunmetal {
+    color: #282F3F;
+}
+
+.text-gainsboro {
+    color: #DCDCDD;
+}
+
+.text-gainsboro-hover {
+    color: #DCDCDD;
+}
+
+.text-gainsboro-hover:hover {
+    color: #64FFDA;
+    transition-duration: 0.4s;
+}
+
+.text-silver {
+    color: #C5C3C6;
+}
+
+.text-silver-hover {
+    color: #C5C3C6;
+}
+
+.text-silver-hover:hover {
+    color: #64FFDA;
+    transition-duration: 0.4s;
+}
+
+.text-razzmatazz {
+    color: #E83970;
+}
+
+.text-razzmatazz:hover {
+    color: #E83970;
+}
+.text-aquamarine {
+    color: #64FFDA;
+}
+.text-aquamarine:hover {
+    color: #64FFDA;
+}
+.text-aquamarine-hover {
+    color: #64FFDA;
+}
+.text-aquamarine-hover:hover {
+    color: #4fc9ac;
+}
+
+.btn-outline-aquamarine {
+    color: #64FFDA;
+    border-width: 2px;
+    border-color: #64FFDA;
+}
+.btn-outline-aquamarine:hover {
+    color: #64FFDA;
+    background-color: #64FFDA33;
+    border-width: 2px;
+    border-color: #64FFDA;
+    transition-duration: 0.4s;
+}
+.btn-outline-razzmatazz {
+    color: #E83970;
+    border-width: 2px;
+    border-color: #E83970;
+}
+
+.btn-outline-razzmatazz:hover {
+    color: #E83970;
+    background-color: #E8397033;
+    border-width: 2px;
+    border-color: #E83970;
+    transition-duration: 0.4s;
+}
+.border-aquamarine {
+    border-width: 2px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #64FFDA;
+}
+.square-card {
+    width: 100%;
+    height: 100%;
+}
+
+.box-shadow {
+    box-shadow: 0px 10px 20px #00000033;
+}
+
+.hover-box-shadow:hover {
+    box-shadow: 0px 10px 15px #00000055;
+    transition-duration: 0.4s;
+}
+
+.grayscale-hover {
+    filter: grayscale(1);
+}
+
+.grayscale-hover:hover {
+    filter: grayscale(0);
+    transition-duration: 0.4s;
+}

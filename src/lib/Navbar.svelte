@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg bg-oxford-blue fixed-top box-shadow py-4">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand fw-bold btn btn-outline-aquamarine" href="/"
+        >@dwightdiesmo</a
+      >
+      <button
+        class="navbar-toggler navbar-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-link text-aquamarine fw-bold px-4" href="/">0
+            <b class="fw-normal text-gainsboro-hover"></b>
+        </a>
+          <a class="nav-link btn btn-outline-aquamarine fw-bold px-5" href="/">
+            RÉSUMÉ
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>

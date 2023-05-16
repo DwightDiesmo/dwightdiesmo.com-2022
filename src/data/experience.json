@@ -1,0 +1,235 @@
+{
+  "jobs": [
+    {
+      "org_name": "Sandvik",
+      "org_location": "Camarillo, CA",
+      "org_website": "https://www.home.sandvik/en/",
+      "org_logo": "../../src/assets/img/experience/sandvik-logo.png",
+      "start_date": 2022,
+      "end_date": 2022,
+      "position": "Software Engineer",
+      "achievements": [
+        "Led Embedded Software development of Battery Management System which monitored the cells within each module.",
+        "Automated UI development for alarms & parameters which increased flexibility to play with variables and sped up development."
+      ],
+      "tools": [
+        "C/C++",
+        "Python",
+        "Linux",
+        "RTOS",
+        "Jenkins",
+        "Bitbucket",
+        "Gerrit",
+        "Code Composer Studio",
+        "Virtual Machine"
+      ]
+    },
+    {
+      "org_name": "ModVans",
+      "org_location": "Oxnard, CA",
+      "org_website": "https://www.modvans.com/",
+      "org_logo": "../../src/assets/img/experience/modvans-logo.png",
+      "start_date": 2022,
+      "end_date": 2022,
+      "position": "Software Engineer",
+      "achievements": [
+        "Architected Cloud and Embedded Software solutions to give vehicle IoT functionality.",
+        "Implemented software to control the popup-top, awning, and appliances in the vehicle.",
+        "Added features for setting the WiFi and Bluetooth configs in the mobile app.",
+        "Created model for converting the raw data from variable resistors (i.e. Water Level Sensors).",
+        "Engineered test devices for stages of production to identify faulty parts and log IDs before use which accelerated production."
+      ],
+      "tools": [
+        "Python",
+        "Svelte",
+        "Fast API",
+        "SQLite",
+        "Postgres",
+        "Docker",
+        "AWS",
+        "Object Relational Mapper"
+      ]
+    },
+    {
+      "org_name": "SDSU Research Foundation",
+      "org_location": "San Diego, CA",
+      "org_website": "https://foundation.sdsu.edu/",
+      "org_logo": "../../src/assets/img/experience/sdsurf-logo.png",
+      "start_date": 2022,
+      "end_date": 2022,
+      "position": "Assistant",
+      "achievements": [
+        "Installed keystroke hidden kernel driver to grab user password.",
+        "Destroyed Raspberry Pi OS with kernel process that eliminated all directories while leveraging the acquired user password.",
+        "Injected kernel driver that generated an infinite number of processes to freeze user resources."
+      ],
+      "tools": ["Python", "Linux", "Virtual Machine"]
+    },
+    {
+      "org_name": "National Security Innovation Network",
+      "org_location": "San Diego, CA",
+      "org_website": "https://www.nsin.mil/",
+      "org_logo": "../../src/assets/img/experience/nsin-logo.png",
+      "start_date": 2021,
+      "end_date": 2022,
+      "position": "Computer Engineer",
+      "achievements": [
+        "Engineered M-203 deploy-able surveillance round prototypes partnered with the Department of Defense.",
+        "Implemented digital signal processing for sub-modules such as the PIR Motion Sensor, 320x320 Camera, ADC Microphone, 3-Axis, Accelerometer, and GPS.",
+        "Created a Flask Application to process raw data collected from the device into the customer's desired formats.",
+        "Developed a website to display the processed data allowing the user to select & export specific recordings."
+      ],
+      "tools": [
+        "C/C++",
+        "Python",
+        "Flask",
+        "MySQL",
+        "Matlab"
+      ]
+    },
+    {
+      "org_name": "RCMakes",
+      "org_location": "Camarillo, CA",
+      "org_website": "https://rcmakes.com/",
+      "org_logo": "../../src/assets/img/experience/rcmakes-logo.png",
+      "start_date": 2016,
+      "end_date": 2020,
+      "position": "Lead Intern",
+      "achievements": [
+        "Managed 30 interns by facilitating tasks for day-to-day operations.",
+        "Designed community initiatives and academic programs such as the Academy Bridge Program for Rancho Campana High School.",
+        "Organized community involvement in Camarillo City Parades, Park Events, and marketing to local businesses.",
+        "Coordinated with local businesses and customers to develop products or provide services that met customer needs.",
+        "Built rcmakes.com, an e-commerce website",
+        "Developed infrastructure for managing, tracking, and delivering ongoing simultaneous projects on Trello."
+      ],
+      "tools": []
+    },
+    {
+      "org_name": "Ventura County Office of Education",
+      "org_location": "Camarillo, CA",
+      "org_website": "https://www.vcoe.org/",
+      "org_logo": "../../src/assets/img/experience/vcoe-logo.png",
+      "start_date": 2019,
+      "end_date": 2019,
+      "position": "Non-Credentialed CTE Instructional Assistant",
+      "achievements": [
+        "Trained ROP course students in developing websites using modern web development tools such as Bootstrap, GitHub.",
+        "Collaborated with a team of instructors from other branches in creating a modern software engineering curriculum."
+      ],
+      "tools": []
+    },
+    {
+      "org_name": "Navy Surface Warfare Center Pre-Engineering Program",
+      "org_location": "Port Hueneme, CA",
+      "org_website": "https://www.navy.mil/",
+      "org_logo": "../../src/assets/img/experience/navy-logo.png",
+      "start_date": 2018,
+      "end_date": 2018,
+      "position": "Intern",
+      "achievements": [],
+      "tools": []
+    }
+  ],
+  "groups": [
+    {
+      "org_name": "SDSU IEEE",
+      "org_location": "San Diego, CA",
+      "org_website": "http://ieee.sdsu.edu/",
+      "org_logo": "../../src/assets/img/experience/ieee-logo.png",
+      "start_date": 2019,
+      "end_date": 2020,
+      "position": "Vice Chair",
+      "achievements": [
+        "Hosted hackathon event for students.",
+        "Created educational programs for students to practice project-based learning.",
+        "Delivered workshop on web development."
+      ],
+      "tools": []
+    },
+    {
+      "org_name": "SDSU Residence Hall Association",
+      "org_location": "San Diego, CA",
+      "org_website": "https://housing.sdsu.edu/",
+      "org_logo": "../../src/assets/img/experience/hackiloilo-logo.png",
+      "start_date": 2018,
+      "end_date": 2019,
+      "position": "Vice President of Administration",
+      "achievements": [
+        "Ensured students had fun & innocent alternative events/options.",
+        "Guided students in campus living.",
+        "Managed all housing communities and coordinated events."
+      ],
+      "tools": []
+    },
+    {
+      "org_name": "Hack Iloilo",
+      "org_location": "Iloilo, Philippines",
+      "org_website": "https://hackiloilo.com/",
+      "org_logo": "../../src/assets/img/experience/hackiloilo-logo.png",
+      "start_date": 2019,
+      "end_date": 2019,
+      "position": "Founder | Lead Event Organizer",
+      "achievements": [
+        "Garnered sponsorships for hosting the event.",
+        "Recruited volunteers and mentors.",
+        "Achieved 146 competitor attendance.",
+        "Bussed honor roll students from Dumangas National High School to observe college and industry competitors.",
+        "Hosted workshop of web development."
+      ],
+      "tools": []
+    },
+    {
+        "org_name": "NewCo Foundation",
+        "org_location": "Camarillo, CA",
+        "org_website": "https://www.newco.foundation/",
+        "org_logo": "../../src/assets/img/experience/newcofoundation-logo.png",
+        "start_date": 2018,
+        "end_date": 2020,
+        "position": "Mentor",
+        "achievements": [
+          "Assisted students in NewCoding Bootcamp program which covered HTML, CSS, JavaScript, Express.JS, Node.JS, Git, GitHub, and Bootstrap."
+        ],
+        "tools": [
+          "HTML/CSS/JS",
+          "Github",
+          "Bootstrap",
+          "React",
+          "Express"
+        ]
+      }
+  ],
+  "competitions": [
+    {
+      "org_name": "SD Hacks",
+      "org_location": "San Diego, CA",
+      "org_website": "https://www.sdhacks.io/",
+      "org_logo": "../../src/assets/img/experience/sdhacks-logo.png",
+      "start_date": 2022,
+      "end_date": 2022,
+      "position": "Computer Engineer | Team Lead | Winner",
+      "achievements": [
+        "Organized a team of students to compete at UCSD's hackathon.",
+        "Led the system design from an electrical and software perspective.",
+        "Procured parts for the electrical schematic.",
+        "Implemented solar power and water pump.",
+        "Created networking and web application connection to the MCU."
+      ],
+      "tools": []
+    },
+    {
+      "org_name": "SacHacks",
+      "org_location": "Sacramento, CA",
+      "org_website": "https://sachacks.io/",
+      "org_logo": "../../src/assets/img/experience/sachacks-logo.png",
+      "start_date": 2022,
+      "end_date": 2022,
+      "position": "Software Engineer | Team Lead | Winner",
+      "achievements": [
+        "Developed web application for gathering power consumption data logs from devices.",
+        "Generated graphs based on the received data to give user feedback on power-consumptiona dn device use."
+      ],
+      "tools": []
+    }
+  ]
+}

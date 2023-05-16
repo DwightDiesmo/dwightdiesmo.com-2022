@@ -1,0 +1,179 @@
+[
+  {
+    "project_name": "Eye Movement",
+    "project_description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This has a set of eyes that follows your mouse.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/EyeMovement",
+    "project_tech": ["HTML", "CSS", "JavaScript"],
+    "project_categories": ["MITx", "Front-End"],
+    "project_featured": true
+  },
+  {
+    "project_name": "PacMen",
+    "project_description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This uses generates moving pacmen.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/PacMen",
+    "project_tech": ["HTML", "CSS", "JavaScript"],
+    "project_categories": ["MITx", "Front-End"],
+    "project_featured": true
+  },
+  {
+    "project_name": "Real Time Bus Tracker",
+    "project_description": "This is a project that was completed as part of the MITx Full-Stack Developer Bootcamp. This uses the mapbox API to showcase the different trolley stops in the San Diego Trolley Green Line.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/RealTimeBusTracker",
+    "project_tech": ["HTML", "CSS", "JavaScript"],
+    "project_categories": ["MITx", "Front-End"],
+    "project_featured": true
+  },
+  {
+    "project_name": "ADPCM",
+    "project_description": "Verilog & Matlab implementation of adaptive differential pulse code modulation for audio compression.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-ADPCM",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": true
+  },
+  {
+    "project_name": "UART",
+    "project_description": "FPGA & SystemVerilog implementation of UART.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Basys_3_UART",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Single-Cycle MIPS Microprocessor",
+    "project_description": "Verilog implementation of a Harvard MIPS Single-Cycle Microprocessor.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-Single-Cycle-Processor",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Multi-Cycle MIPS Microprocessor",
+    "project_description": "Verilog implementation of a Von Neumann MIPS Multi-Cycle Microprocessor.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-Multicycle-MIPS-Processor",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Super-Scalar Pipelined MIPS Microprocessor",
+    "project_description": "Verilog implementation of a Harvard MIPS Super-Scalar 5-Staged Pipelined Microprocessor with Data & Control Hazard Error Handling.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-Pipelined-MIPS-Processor",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Time-Multiplexed FIR Filter",
+    "project_description": "Verilog & Matlab implementation of a Time-Multiplexed FIR Filter.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-Time-Multiplexed-FIR-Filter",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "IIR Filter",
+    "project_description": "Verilog & Matlab implementation of an IIR Filter using Cascaded Second Order Section.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Verilog-IIR-Filter",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Digital Clock",
+    "project_description": "SystemVerilog & Basys 3 FPGA implementation of a Digital Clock with an Alarm.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/SystemVerilog-FPGA-Digital-Clock",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "Whack-A-Mole",
+    "project_description": "SystemVerilog & Basys 3 FPGA implementation of a Whack-A-Mole game with scoring system and timer.",
+    "project_link": "#",
+    "project_repo": "#",
+    "project_tech": ["SystemVerilog", "Matlab", "FPGA"],
+    "project_categories": ["Hardware Description Language"],
+    "project_featured": false
+  },
+  {
+    "project_name": "A.R.G.U.S.",
+    "project_description": "Deployable Surveillance M-203 Grenade Launcher Round with seismic sensing, camera, microphone, gps, sd card, wifi capabilities. Data is sent via file transfer protocol to a fog computing layer that processes data and transmits to the MySQL server in cloud. Data can be viewed an accessed by the user in a Flask Web-Application.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/ARGUS",
+    "project_tech": [
+      "C/C++",
+      "Matlab",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "SQL",
+      "MySQL",
+      "PHPMyAdmin",
+      "Python",
+      "Flask",
+      "Arduino",
+      "Fog Computing",
+      "WebApp",
+      "Circuit",
+      "Embedded Hardware",
+      "Embedded Software"
+    ],
+    "project_categories": [
+      "Internet of Things"
+    ],
+    "project_featured": true
+  },
+  {
+    "project_name": "Autonomous Adaptive Solar Ecosystem",
+    "project_description": "SD Hacks 2022 Best Overall. Single-Axis Adaptive Solar Panels with Liquid Cooling Pump System and Data Tracking via MySQL & Flask Web Application.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/Autonomous-Adaptive-Solar-Ecosystem",
+    "project_tech": [
+      "C/C++",
+      "Python",
+      "Flask",
+      "Arduino",
+      "Fog Computing",
+      "WebApp",
+      "Circuit",
+      "Embedded Hardware",
+      "Embedded Software"
+    ],
+    "project_categories": [
+      "Internet of Things"
+    ],
+    "project_featured": true
+  },
+  {
+    "project_name": "CheezyPop",
+    "project_description": "Movie Database Website.",
+    "project_link": "#",
+    "project_repo": "https://github.com/DwightDiesmo/cheezypop.com",
+    "project_tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "SQL",
+      "MySQL",
+      "PHPMyAdmin",
+      "Python",
+      "Flask"
+    ],
+    "project_categories": ["Web Applications"],
+    "project_featured": false
+  }
+]
